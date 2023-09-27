@@ -9,3 +9,10 @@ script_dir=$(cd $(dirname $0); pwd)
 ln -sfnv ${script_dir}/config/git ${HOME}/.config/git
 ln -sfnv ${script_dir}/zprofile ${HOME}/.zprofile
 ln -sfnv ${script_dir}/zshrc ${HOME}/.zshrc
+
+################################################################
+# Setup
+################################################################
+
+anyenv install --init
+
